@@ -1,0 +1,8 @@
+# Environment
+.wordle-env/
+
+# Main Scripts (Testbeds)
+__main__.py
+
+# Caches
+__pycache__/
