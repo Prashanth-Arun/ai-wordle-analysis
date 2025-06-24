@@ -1,7 +1,7 @@
 from .evaluate import wordle_evaluate
 from argparse import ArgumentParser
 from model import Chatbot, ClaudeChatbot, MistralChatbot, GPTChatbot, GroqChatbot
-from prompt import SOLVER_PROMPT
+from util import SOLVER_PROMPT
 from typing import Mapping
 import re
 
@@ -40,7 +40,7 @@ def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 15
             solver_response, _ = solver.post_query(f"Feedback for last guess: {evaluation}")
         print(solver_response)
         try:
-            guess = get_guess(solver_response, "guess")
+            guess = get_guess(solver_response)
             if verbose: print("Guess: " + guess)
         except ValueError as e:
             print(e.__str__())
