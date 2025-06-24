@@ -1,7 +1,7 @@
 from .evaluate import wordle_evaluate
+from argparse import ArgumentParser
 from model import Chatbot, ClaudeChatbot, MistralChatbot, GPTChatbot, GroqChatbot
 from prompt import SOLVER_PROMPT
-from string import Template
 from typing import Mapping
 import re
 
@@ -27,7 +27,7 @@ def initialize_model(model_name: str, system_prompt: str) -> Chatbot:
     return MODEL_MAPPING[model_name](system_prompt=system_prompt)
 
 
-def execute(model: str, target: str, verbose: bool = True) -> list[str]:
+def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 15) -> list[str]:
     solver = initialize_model(model, SOLVER_PROMPT)
 
     guesses: list[str] = []
@@ -48,5 +48,5 @@ def execute(model: str, target: str, verbose: bool = True) -> list[str]:
         evaluation = wordle_evaluate(target=target, guess=guess)
         if verbose: print("Result: " + evaluation)
         guesses.append(guess)
-        if evaluation == "GGGGG":
+        if (evaluation == "GGGGG") or (len(guesses) > guess_limit):
             break
