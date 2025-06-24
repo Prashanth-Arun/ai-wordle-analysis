@@ -31,21 +31,17 @@ EVALUATOR_PROMPT = Template(
     - G for Green (correct letter and position)
     - Y for Yellow (correct letter, wrong position)
     - B for Black/Gray (letter not in the word or excess occurrences)
-<<<<<<<<<<
 
->>>>>>>>>>
-Example
-
-Target Word: PLANE
-Guess: APPLE
-Your Output: YYBYG
-Explanation: A, P, and L are in the target but not the right position, so Yellow; the second P is not in the word, so Black; E is in the right position as well, so green
+- Output Structure:
+   - Enclose your reasoning in `<thinking>...</thinking>`. This is where you explain how you are narrowing down the word list, analyzing feedback, and choosing the next guess.
+   - Enclose your actual output in `<output>...</output>`. This must be a 5-letter string that is constructed using the rules provided above.
 <<<<<<<<<<
 
 >>>>>>>>>>
 ### Target Word
 
-The target word for this round is '${target_word}'.
+- The target word for this round is '${target_word}'.
+- 
 <<<<<<<<<<
 """
 )
