@@ -4,7 +4,9 @@ from model import Chatbot
 from util import SOLVER_PROMPT, cprint
 import os
 
-BASE_DATASET_PATH: str = os.path.join(os.getcwd(), "dataset", ".data")
+BASE_DATASET_PATH: str = os.path.join(os.getcwd(), "data", "words")
+BASE_PREDICTIONS_PATH: str = os.path.join(os.getcwd(), "data", "predictions")
+
 
 def serialize_outfile_name(model: str, dataset: str) -> str:
     return f"{model}_{dataset}.txt"
@@ -33,7 +35,7 @@ def main():
 
     # Write trajectories to file
     outfile_name: str = serialize_outfile_name(model=args.model, dataset='control' if not args.hypothesis else 'hypothesis')
-    with open(f"./predictions/{outfile_name}", "w") as f:
+    with open(f"{BASE_PREDICTIONS_PATH}/{outfile_name}", "w") as f:
         f.writelines([trajectory + "\n" for trajectory in trajectories])
 
 
