@@ -35,3 +35,25 @@ def wordle_evaluate(target: str, guess: str) -> str:
             match_result[i] = 'B'
 
     return ''.join(match_result)
+
+
+def letter_partition(
+    guess: str,
+    evaluation: str,
+    present: list[str],
+    absent: list[str],
+    unused: list[str]
+) -> None:
+    
+    assert len(guess) == len(evaluation), f"ERROR: len({guess}) = {len(guess)} != len({evaluation})"
+    for letter_char, eval_char in zip(guess, evaluation):
+        if letter_char in unused:
+            if eval_char == "B":
+                absent.append(letter_char)
+            else:
+                present.append(letter_char)
+            unused.remove(letter_char)
+
+    absent.sort()
+    present.sort()
+    unused.sort()

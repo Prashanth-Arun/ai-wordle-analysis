@@ -19,11 +19,21 @@ SOLVER_PROMPT: str = \
    - Eliminate invalid candidates based on letter positions and known constraints.
    - Select the most informative next guess—prioritize reducing the solution space while staying consistent with prior feedback.
 
-2. Output Structure:
-   - Enclose your reasoning in `<thinking>...</thinking>`. This is where you explain how you are narrowing down the word list, analyzing feedback, and choosing the next guess.
+2. Input Structure:
+   - You will receive input in the following format:
+   ```
+   Feedback: ... // (feedback for your previous guess goes here.)
+   Past Guesses: [...] // (list of previous (guess, evaluation) 2-tuples)
+   Unused: [...] // (letters that you have not yet tried)
+   Absent: [...] // (used letters that don't appear in the word)
+   Present: [...] // (used letters that appear in either yellow or green positions)
+   ```
+
+3. Output Structure:
+   - Enclose your reasoning in `<thinking>...</thinking>`. This is where you explain how you are narrowing down the word list, analyzing feedback, and choosing the next guess. 
    - Enclose your actual guess in `<guess>...</guess>`. This must be a valid 5-letter English word that you believe is consistent with all feedback so far.
 
-3. Guessing Rules:
+4. Guessing Rules:
    - All guesses must be real 5-letter English words.
    - Guesses should follow from your reasoning and be justified logically.
    - Avoid repeating prior guesses.
