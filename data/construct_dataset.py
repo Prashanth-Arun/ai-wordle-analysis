@@ -82,12 +82,12 @@ if __name__ == "__main__":
     data = data[["word", "group", "group_reason", "starts_with", "has_double_letter", "unique_letters", "letter_counts"]]
 
     # Save to CSV
-    data.to_csv("./.data/words_with_metadata.csv", index=False)
+    data.to_csv("./words/words_with_metadata.csv", index=False)
 
     # Save only words to a .txt file
     hypothesis_words: list[str] = [entry[0] + "\n" for entry in HYPOTHESIS_WORDS]
     control_words: list[str] = [entry[0] + "\n" for entry in CONTROL_WORDS]
-    with open("./.data/hypothesis_words.txt", "w") as f:
+    with open("./words/hypothesis_words.txt", "w") as f:
         f.writelines(hypothesis_words)
-    with open("./.data/control_words.txt", "w") as f:
+    with open("./words/control_words.txt", "w") as f:
         f.writelines(control_words)
