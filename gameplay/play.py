@@ -85,13 +85,14 @@ def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 7)
     present: list[str] = []
     absent: list[str] = []
     unused: list[str] = [chr(ord('A') + i) for i in range(26)]
-    evaluation: str = ""
+    feedback: Mapping[str, Any] = {}
+
+    redo = lambda feedback: feedback.lower().startswith("invalid")
 
     while True:
         if len(guess_history) == 0:
             solver_response, _ = solver.post_query("Begin")
         else:
-            feedback: Mapping[str, str] = construct_feedback(guess_history, present, absent, unused)
             solver_response, _ = solver.post_query(json.dumps(feedback))
             if verbose: cprint(feedback, color="yellow")
         print(solver_response)
@@ -99,7 +100,8 @@ def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 7)
             guess = get_guess(solver_response)
             if verbose: print("Guess: " + guess)
             if not valid_guess(guess): 
-                evaluation = f"Invalid {len(guess)}-letter word: {guess}. Your guess must be 5 letters long, uppercase."
+                feedback['feedback'] = f"Invalid {len(guess)}-letter word: {guess}."
+                feedback['interpretation'] = "Your guess should be a valid 5-letter English word."
                 continue
         except ValueError as e:
             print(e.__str__())
@@ -107,6 +109,8 @@ def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 7)
         evaluation = wordle_evaluate(target=target, guess=guess)
         if verbose: print("Result: " + evaluation)
         guess_history.append((guess, evaluation))
+        feedback: Mapping[str, str] = construct_feedback(guess_history, present, absent, unused)
+        
         if (evaluation == "GGGGG") or (len(guess_history) >= guess_limit):
             break
 

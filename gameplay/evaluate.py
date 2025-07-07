@@ -85,4 +85,4 @@ def interpret_score(guess: str, evaluation: str) -> str:
             case _:
                 raise ValueError(f"ERROR: Invalid evaluation character '{eval_char}' @ idx {i} (evaluation='{evaluation}', guess={guess})")
             
-    return "\n".join(interpretation)
+    return "; ".join(interpretation)

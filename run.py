@@ -17,7 +17,7 @@ def count_wins(results: list[Mapping[str, Any]], guess_limit: int = 6) -> int:
     num_wins = 0
     for result in results:
         assert "num guesses" in result and "solved" in result
-        num_wins += (1 if result['num_guesses'] <= guess_limit and result['solved'] else 0)
+        num_wins += (1 if result['num guesses'] <= guess_limit and result['solved'] else 0)
     return num_wins
 
 
