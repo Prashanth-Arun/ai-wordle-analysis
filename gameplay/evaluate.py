@@ -57,3 +57,32 @@ def letter_partition(
     absent.sort()
     present.sort()
     unused.sort()
+
+
+def interpret_score(guess: str, evaluation: str) -> str:
+    """
+    Returns a text interpretation of the score that a Wordle player receives.
+
+    Example (for guess="TARTS" and evaluation="GGBYB"):
+        'T' -> In the correct position (1)
+        'A' -> In the correct position (2)
+        'R' -> Not in the word
+        'T' -> In the word but not in position (4)
+        'S' -> Not in the word
+
+    Reason: Input tokens are cheaper than output tokens; cheaper to do this instead of having the LLM reason through it.
+    """
+    assert len(guess) == len(evaluation) == 5
+    interpretation: list[str] = []
+    for i, (guess_char, eval_char) in enumerate(zip(guess, evaluation)):
+        match eval_char:
+            case "B":
+                interpretation.append(f"'{guess_char}' -> Not in the word")
+            case "G":
+                interpretation.append(f"'{guess_char}' -> In the correct position ({i+1})")
+            case "Y":
+                interpretation.append(f"'{guess_char}' -> In the word but not in position ({i+1})")
+            case _:
+                raise ValueError(f"ERROR: Invalid evaluation character '{eval_char}' @ idx {i} (evaluation='{evaluation}', guess={guess})")
+            
+    return "\n".join(interpretation)

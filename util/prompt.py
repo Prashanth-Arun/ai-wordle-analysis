@@ -20,17 +20,20 @@ SOLVER_PROMPT: str = \
    - Select the most informative next guess—prioritize reducing the solution space while staying consistent with prior feedback.
 
 2. Input Structure:
-   - You will receive input in the following format:
+   - You will receive input in JSON format with the following fields:
    ```
-   Feedback: ... // (feedback for your previous guess goes here.)
-   Past Guesses: [...] // (list of previous (guess, evaluation) 2-tuples)
-   Unused: [...] // (letters that you have not yet tried)
-   Absent: [...] // (used letters that don't appear in the word)
-   Present: [...] // (used letters that appear in either yellow or green positions)
+   {
+      "feedback": ..., // (the 5-letter evaluation of your previous guess)
+      "interpretation": ..., // (how this feedback should be interpreted)
+      "past guesses": [...], // (a list of all previous (guess, evaluation) 2-tuples)
+      "unused letters": [...], // (letters that you have not yet tried)
+      "absent letters": [...], // (letters that do not appear in the word)
+      "present letters": [...] // (letters that appear in the word, in either yellow or green positions)
+   }
    ```
 
 3. Output Structure:
-   - Enclose your reasoning in `<thinking>...</thinking>`. This is where you explain how you are narrowing down the word list, analyzing feedback, and choosing the next guess. 
+   - Enclose your reasoning in `<thinking>...</thinking>`. This is where you explain how you are narrowing down the word list, analyzing feedback, and choosing the next guess. Restrict this to at most 150 words. 
    - Enclose your actual guess in `<guess>...</guess>`. This must be a valid 5-letter English word that you believe is consistent with all feedback so far.
 
 4. Guessing Rules:
@@ -46,7 +49,8 @@ SOLVER_PROMPT: str = \
 >>>>>>>>>>
 ### Feedback Format from Evaluator
 
-After each guess, you will receive a 5-character string composed of `G`, `Y`, and `B`, corresponding to the score for each letter in your guess.
+- After each guess, you will receive a 5-character string composed of `G`, `Y`, and `B`, corresponding to the score for each letter in your guess.
+- Along with this, you will receive an interpretation of the 5 character score.
 
 Example:
 - Guess: CRANE  
