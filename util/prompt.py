@@ -81,7 +81,7 @@ Feedback: BGBYG
 >>>>>>>>>>
 ### Additional Instructions
 
-- Stay consistent, analytical, and efficient. The goal is to solve the puzzle in as few guesses as possible.
+- Stay consistent, analytical, and efficient. The goal is to solve the puzzle in 6 guesses.
 - You may begin with your first guess when you receive the prompt `Begin`.
 <<<<<<<<<<
 """

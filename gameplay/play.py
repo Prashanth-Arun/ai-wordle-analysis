@@ -2,7 +2,7 @@ from .evaluate import wordle_evaluate, letter_partition, interpret_score
 from argparse import ArgumentParser
 from model import Chatbot, ClaudeChatbot, MistralChatbot, GPTChatbot, GroqChatbot
 from util import SOLVER_PROMPT, cprint
-from typing import Mapping, TypeAlias
+from typing import Any, Mapping, TypeAlias
 import json
 import re
 
@@ -58,7 +58,27 @@ def construct_feedback(
     return feedback
 
 
-def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 7) -> list[str]:
+def format_output(
+    guess_history: list[GuessResult],
+    target: str
+) -> Mapping[str, Any]:
+    """Formats output as a dict so that it can be written to a JSON file"""
+    assert len(guess_history) >= 1
+    num_guesses = len(guess_history)
+    guesses: list[str] = [guess for guess, _ in guess_history]
+    evals: list[str] = [evaluation for _, evaluation in guess_history]
+    solved = False
+    if guesses[-1] == target:
+        solved = True
+    return {
+        "guesses": guesses,
+        "evaluations": evals,
+        "num guesses": num_guesses,
+        "solved": solved
+    }
+
+
+def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 7) -> Mapping[str, Any]:
     solver = initialize_model(model, SOLVER_PROMPT)
 
     guess_history: list[GuessResult] = []
@@ -90,4 +110,5 @@ def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 7)
         if (evaluation == "GGGGG") or (len(guess_history) > guess_limit):
             break
 
-    return [guess for guess, _ in guess_history]
+    result = format_output(guess_history=guess_history, target=target)
+    return result

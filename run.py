@@ -1,7 +1,8 @@
 from argparse import ArgumentParser
 from gameplay import execute
-from model import Chatbot
-from util import SOLVER_PROMPT, cprint
+from typing import Mapping, Any
+from util import cprint
+import json
 import os
 
 BASE_DATASET_PATH: str = os.path.join(os.getcwd(), "data", "words")
@@ -26,17 +27,17 @@ def main():
         word_list: list[str] = f.readlines()
 
     # Run the experiment
-    trajectories: list[str] = []
+    results: list[Mapping[str, Any]] = []
     for word in word_list:
         word = word.strip()
         cprint(f"### Target = {word.upper()}", color="cyan")
-        guesses = execute(model=args.model, target=word.upper(), verbose=args.verbose)
-        trajectories.append(" -> ".join(guesses))
+        result = execute(model=args.model, target=word.upper(), verbose=args.verbose)
+        results.append(result)
 
     # Write trajectories to file
     outfile_name: str = serialize_outfile_name(model=args.model, dataset='control' if not args.hypothesis else 'hypothesis')
     with open(f"{BASE_PREDICTIONS_PATH}/{outfile_name}", "w") as f:
-        f.writelines([trajectory + "\n" for trajectory in trajectories])
+        json.dump(results, f, indent=4)
 
 
 if __name__ == "__main__":
