@@ -1,8 +1,9 @@
-from .evaluate import wordle_evaluate, letter_partition
+from .evaluate import wordle_evaluate, letter_partition, interpret_score
 from argparse import ArgumentParser
 from model import Chatbot, ClaudeChatbot, MistralChatbot, GPTChatbot, GroqChatbot
 from util import SOLVER_PROMPT, cprint
 from typing import Mapping, TypeAlias
+import json
 import re
 
 MODEL_MAPPING : Mapping[str, Chatbot] = {
@@ -40,22 +41,24 @@ def construct_feedback(
     present: list[str], 
     absent: list[str], 
     unused: list[str]
-) -> str:
+) -> Mapping[str, str]:
     
     assert len(guess_history) > 0
     last_guess, last_eval = guess_history[-1]
     letter_partition(guess=last_guess, evaluation=last_eval, present=present, absent=absent, unused=unused)
-    feedback: list[str] = [
-        f"Feedback: {last_eval}",
-        f"Past Guesses: {guess_history}",
-        f"Unused: {unused}",
-        f"Absent: {absent}",
-        f"Present: {present}"
-    ]
-    return "\n".join(feedback)
+    interpretation: str = interpret_score(guess=last_guess, evaluation=last_eval)
+    feedback: Mapping[str, str] = {
+        "feedback": last_eval,
+        "interpretation": interpretation,
+        "past guesses": guess_history,
+        "unused letters": unused,
+        "absent letters": absent,
+        "present letters": present
+    }
+    return feedback
 
 
-def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 15) -> list[str]:
+def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 7) -> list[str]:
     solver = initialize_model(model, SOLVER_PROMPT)
 
     guess_history: list[GuessResult] = []
@@ -68,8 +71,8 @@ def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 15
         if len(guess_history) == 0:
             solver_response, _ = solver.post_query("Begin")
         else:
-            feedback: str = construct_feedback(guess_history, present, absent, unused)
-            solver_response, _ = solver.post_query(feedback)
+            feedback: Mapping[str, str] = construct_feedback(guess_history, present, absent, unused)
+            solver_response, _ = solver.post_query(json.dumps(feedback))
             if verbose: cprint(feedback, color="yellow")
         print(solver_response)
         try:
