@@ -107,7 +107,7 @@ def execute(model: str, target: str, verbose: bool = True, guess_limit: int = 7)
         evaluation = wordle_evaluate(target=target, guess=guess)
         if verbose: print("Result: " + evaluation)
         guess_history.append((guess, evaluation))
-        if (evaluation == "GGGGG") or (len(guess_history) > guess_limit):
+        if (evaluation == "GGGGG") or (len(guess_history) >= guess_limit):
             break
 
     result = format_output(guess_history=guess_history, target=target)
