@@ -1,0 +1,529 @@
+{
+    "win rate": 0.28,
+    "guess results": [
+        {
+            "guesses": [
+                "CRANE",
+                "THUMP",
+                "FLOWS",
+                "BLOCK",
+                "GUILD",
+                "DOLLY",
+                "ODDLY"
+            ],
+            "evaluations": [
+                "BBBBB",
+                "BBBBB",
+                "BYYBB",
+                "BYYBB",
+                "BBBGY",
+                "YYBGG",
+                "GGGGG"
+            ],
+            "num guesses": 7,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "RAISE",
+                "RELIC",
+                "MERIT",
+                "VERGE",
+                "FERRI",
+                "BEING",
+                "PERIL"
+            ],
+            "evaluations": [
+                "YBYBG",
+                "YGBGB",
+                "BGGGB",
+                "BGGBG",
+                "BGGBY",
+                "BGYBB",
+                "BGGGB"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "CRANE",
+                "STORE",
+                "RECUR",
+                "DEMUR",
+                "BLUER",
+                "PURER",
+                "UPPER"
+            ],
+            "evaluations": [
+                "BYBBY",
+                "BBBYY",
+                "BYBYG",
+                "BYBYG",
+                "BBYGG",
+                "YYBGG",
+                "GGGGG"
+            ],
+            "num guesses": 7,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "EARTH",
+                "SPEND",
+                "LOSES",
+                "BUSES",
+                "MUSES",
+                "FUESS",
+                "SUESS"
+            ],
+            "evaluations": [
+                "YBBBB",
+                "YBYBB",
+                "BBGYY",
+                "BYGYY",
+                "BYGYY",
+                "BYYYY",
+                "YYYYB"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "CRANE",
+                "SLIME",
+                "DEPOT",
+                "DOUPE",
+                "LODGE",
+                "BORED",
+                "FOXED"
+            ],
+            "evaluations": [
+                "BBBBY",
+                "BBBBY",
+                "YYBYB",
+                "YGBBY",
+                "BGYBY",
+                "BGBGG",
+                "BGBGG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "CRONE",
+                "EMBED",
+                "EXPED",
+                "ELFED",
+                "ENDED",
+                "EVADE"
+            ],
+            "evaluations": [
+                "BBBBY",
+                "BBBBY",
+                "GBBGG",
+                "GBBGG",
+                "GBBGG",
+                "GBBGG",
+                "GBBYY"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "CRONE",
+                "PROVE",
+                "FORGE",
+                "FERRO",
+                "FORUM",
+                "FOYER"
+            ],
+            "evaluations": [
+                "BBBBY",
+                "BYYBY",
+                "BYYBY",
+                "YYYBY",
+                "YYYBY",
+                "YYYBB",
+                "YYBGG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "CLONE",
+                "BLEED",
+                "FLARE",
+                "LEERY",
+                "REVEL",
+                "GRUEL"
+            ],
+            "evaluations": [
+                "BGBBY",
+                "BGBBY",
+                "BGBGB",
+                "BGBYY",
+                "YYBYB",
+                "YBBGY",
+                "BYBGY"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "THORN",
+                "ROUTD",
+                "TORIC",
+                "TRIOL",
+                "ROBOT",
+                "RABBI"
+            ],
+            "evaluations": [
+                "BBBYB",
+                "YBYYB",
+                "YYBYB",
+                "YYYGB",
+                "YGYYB",
+                "YYGBG",
+                "YBGBY"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "ROUND",
+                "MONIC",
+                "NOILY",
+                "ONION"
+            ],
+            "evaluations": [
+                "BBBBB",
+                "BYBYB",
+                "BYYYB",
+                "YYGBB",
+                "GGGGG"
+            ],
+            "num guesses": 5,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "CLIME",
+                "BLITE",
+                "ELITE"
+            ],
+            "evaluations": [
+                "BBGBG",
+                "BGGBG",
+                "BGGGG",
+                "GGGGG"
+            ],
+            "num guesses": 4,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "CRANE",
+                "STORE",
+                "TERMS",
+                "TREND",
+                "UTTER"
+            ],
+            "evaluations": [
+                "BYBBY",
+                "BGBYY",
+                "YYYBB",
+                "YYYBB",
+                "GGGGG"
+            ],
+            "num guesses": 5,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "GRAPE",
+                "ADORE",
+                "ADEEM",
+                "ADIEU",
+                "ADYZE",
+                "ADAGE"
+            ],
+            "evaluations": [
+                "BBYBY",
+                "BBYBY",
+                "GGBBY",
+                "GGBGB",
+                "GGBGB",
+                "GGBBY",
+                "GGBBY"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "CRANE",
+                "STONE",
+                "LOTTE",
+                "QUOTE",
+                "SMOTE",
+                "EMOTE"
+            ],
+            "evaluations": [
+                "BBBBG",
+                "BYGBG",
+                "BYBGG",
+                "BBGGG",
+                "BGGGG",
+                "GGGGG"
+            ],
+            "num guesses": 6,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "CRANE",
+                "REVEL",
+                "MERIT",
+                "PERCH",
+                "FERRY",
+                "ORDER",
+                "ROGER"
+            ],
+            "evaluations": [
+                "BGBBY",
+                "YYBBB",
+                "BYGBB",
+                "BYGBB",
+                "BYGYB",
+                "YGBYG",
+                "YYBYG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "MERCY",
+                "FOGIE",
+                "ENJOY",
+                "DEVON",
+                "OZONE",
+                "ONCET"
+            ],
+            "evaluations": [
+                "BBBBY",
+                "BYBBB",
+                "BYBBY",
+                "YYBYB",
+                "BYBYG",
+                "GBBYY",
+                "GYBGB"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "RATES",
+                "RELOC",
+                "PRIME",
+                "NERDY",
+                "REDUX",
+                "REDID",
+                "DRIER"
+            ],
+            "evaluations": [
+                "YBBGB",
+                "YYBBB",
+                "BYBBY",
+                "BYYYB",
+                "YYYBB",
+                "YYYBB",
+                "YBBGG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "CRIED",
+                "PRIME",
+                "RENIE",
+                "RINKY",
+                "INERT",
+                "INFER"
+            ],
+            "evaluations": [
+                "BBBBY",
+                "BYYGB",
+                "BYYBY",
+                "YYGYB",
+                "YYGBB",
+                "GGYYB",
+                "GGBGG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "ROUND",
+                "MOTHY",
+                "CHOMP",
+                "HUMOR",
+                "PHLOX",
+                "WHOMP"
+            ],
+            "evaluations": [
+                "BBBBB",
+                "BGBBB",
+                "YGBYB",
+                "BYYYY",
+                "YBGYB",
+                "YYBYB",
+                "BYYYY"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "CRANE",
+                "CLIPS",
+                "COMET",
+                "CIVET",
+                "DUNCE",
+                "EJECT"
+            ],
+            "evaluations": [
+                "YBBBY",
+                "YBBBB",
+                "YBBYG",
+                "YBBYG",
+                "BBBGY",
+                "GGGGG"
+            ],
+            "num guesses": 6,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "THING",
+                "POINT",
+                "INPUT"
+            ],
+            "evaluations": [
+                "BBYBB",
+                "YBYYB",
+                "YBYYG",
+                "GGGGG"
+            ],
+            "num guesses": 4,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "CRANE",
+                "TORCH",
+                "SCOUR",
+                "FOCUR",
+                "LOCUR",
+                "OCCUR"
+            ],
+            "evaluations": [
+                "YYBBB",
+                "BYYYB",
+                "BGYGG",
+                "BYGGG",
+                "BYGGG",
+                "GGGGG"
+            ],
+            "num guesses": 6,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "SLATE",
+                "CRIME",
+                "DONNE",
+                "PHONE",
+                "SHONE",
+                "ZONNE",
+                "BONZE"
+            ],
+            "evaluations": [
+                "BBBBG",
+                "BBBBG",
+                "BYBGG",
+                "BBGGG",
+                "BBGGG",
+                "YYBGG",
+                "BYYYG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "SAINT",
+                "CRUMP",
+                "LOURD",
+                "BURDY",
+                "DRUGS",
+                "RUDEY",
+                "UDDER"
+            ],
+            "evaluations": [
+                "BBBBB",
+                "BYYBB",
+                "BBYYY",
+                "BYYYB",
+                "YYYBB",
+                "YYGGB",
+                "GGGGG"
+            ],
+            "num guesses": 7,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "CRANE",
+                "RETRO",
+                "MERGE",
+                "LEVER",
+                "BIKER",
+                "HYPER",
+                "USHER"
+            ],
+            "evaluations": [
+                "BYBBY",
+                "YYBBB",
+                "BYYBB",
+                "BBBGG",
+                "BBBGG",
+                "YBBGG",
+                "GGGGG"
+            ],
+            "num guesses": 7,
+            "solved": true
+        }
+    ]
+}

@@ -1,0 +1,503 @@
+{
+    "win rate": 0.4,
+    "guess results": [
+        {
+            "guesses": [
+                "ARISE",
+                "CARAT",
+                "CRAFT",
+                "CRAMP",
+                "CRAZE",
+                "CRAVE",
+                "CRAWN"
+            ],
+            "evaluations": [
+                "YGBBB",
+                "GYYBB",
+                "GGGBB",
+                "GGGBB",
+                "GGGBB",
+                "GGGBB",
+                "GGGBY"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "TRACE",
+                "TAUNT",
+                "TALLE",
+                "TAXLE",
+                "TAKLE",
+                "TABLE"
+            ],
+            "evaluations": [
+                "YBBBG",
+                "GBYBG",
+                "GGBBB",
+                "GGBGG",
+                "GGBGG",
+                "GGBGG",
+                "GGGGG"
+            ],
+            "num guesses": 7,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "LOANS",
+                "MASTY",
+                "DAMNS",
+                "CAMPS",
+                "GAMUS",
+                "MAMBA"
+            ],
+            "evaluations": [
+                "YBBGB",
+                "BBGBY",
+                "YYYBB",
+                "BYYBY",
+                "BYYBY",
+                "BYYBY",
+                "YYBBB"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "BLACK",
+                "BLAME",
+                "BLANK",
+                "BLAND"
+            ],
+            "evaluations": [
+                "YBBBB",
+                "GGGBB",
+                "GGGBB",
+                "GGGGB",
+                "GGGGG"
+            ],
+            "num guesses": 5,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "NOTES",
+                "BESTS",
+                "TESTY",
+                "LESTS",
+                "METED",
+                "SETUP"
+            ],
+            "evaluations": [
+                "BBBGY",
+                "BBYYY",
+                "BYYYB",
+                "YYYBB",
+                "BYYYB",
+                "BYYBB",
+                "YYYBB"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "RIOTA",
+                "BARIA",
+                "CARIA",
+                "MARIA",
+                "PARKA",
+                "RAINY"
+            ],
+            "evaluations": [
+                "YGYBB",
+                "YYBBY",
+                "BYYGB",
+                "BYYGB",
+                "BYYGB",
+                "BYYBB",
+                "YYYYB"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "COAST",
+                "LUANT",
+                "BLANT",
+                "DLANT",
+                "FLANT",
+                "GLANT"
+            ],
+            "evaluations": [
+                "YBBBB",
+                "BBGBG",
+                "YBGGG",
+                "BGGGG",
+                "BGGGG",
+                "BGGGG",
+                "BGGGG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "ROAST",
+                "CARDS",
+                "BARNS",
+                "PARTY",
+                "MARSH",
+                "SHARP"
+            ],
+            "evaluations": [
+                "YYBYB",
+                "YBGYB",
+                "BYYBY",
+                "BYYBY",
+                "BYYBB",
+                "BYYYY",
+                "GGGGB"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "TROVE",
+                "PARVE",
+                "ARVEN",
+                "VAERY",
+                "AVERD",
+                "CAVER"
+            ],
+            "evaluations": [
+                "YGBBG",
+                "BGBGG",
+                "BYYGG",
+                "YGYYB",
+                "YYYYB",
+                "YYYYB",
+                "BYYYY"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "BLACK",
+                "CLACK",
+                "CLANK",
+                "CLACK",
+                "CLACK",
+                "CLACK"
+            ],
+            "evaluations": [
+                "YBBBB",
+                "BGYYG",
+                "GGYBG",
+                "GGYBG",
+                "GGYBG",
+                "GGYBG",
+                "GGYBG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "OUNCE",
+                "DOUBT"
+            ],
+            "evaluations": [
+                "BBBBB",
+                "YYBBB",
+                "GGGGG"
+            ],
+            "num guesses": 3,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "IDIOM",
+                "VIBES",
+                "WITCH",
+                "LUMPY",
+                "FLICK",
+                "FLING"
+            ],
+            "evaluations": [
+                "BBGBB",
+                "BBGBB",
+                "BYBBB",
+                "BYBBB",
+                "YBBBB",
+                "GGGBB",
+                "GGGGG"
+            ],
+            "num guesses": 7,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "LOUNG",
+                "DOUSE",
+                "BOUND",
+                "MOUND"
+            ],
+            "evaluations": [
+                "BBBBB",
+                "BGGGB",
+                "YGGBB",
+                "BGGGG",
+                "GGGGG"
+            ],
+            "num guesses": 5,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "RAISE",
+                "CARBS",
+                "STARS",
+                "SNARE",
+                "SMART",
+                "SHARK",
+                "STARK"
+            ],
+            "evaluations": [
+                "YYBYB",
+                "BYYBY",
+                "GBGGB",
+                "GBGGB",
+                "GBGGB",
+                "GBGGG",
+                "GBGGG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "AUDIO",
+                "CAIRN",
+                "BRAIN",
+                "TRAIN",
+                "TRAIL"
+            ],
+            "evaluations": [
+                "YBBGB",
+                "BYYYB",
+                "BGGGB",
+                "GGGGB",
+                "GGGGG"
+            ],
+            "num guesses": 5,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "CARRY",
+                "BRAVO",
+                "FRAUD",
+                "DRAFT"
+            ],
+            "evaluations": [
+                "YGBBB",
+                "BYYBB",
+                "BGGBB",
+                "YGGBY",
+                "GGGGG"
+            ],
+            "num guesses": 5,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "IDIOT",
+                "VIBEX",
+                "LIBEL",
+                "CUBIC",
+                "CILIB",
+                "CLIMB"
+            ],
+            "evaluations": [
+                "BBGBB",
+                "BBGBB",
+                "BYYBB",
+                "YYYBB",
+                "GBYYB",
+                "GYYBG",
+                "GGGGG"
+            ],
+            "num guesses": 7,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "PROSE",
+                "SPORE"
+            ],
+            "evaluations": [
+                "BYBYG",
+                "YYGYG",
+                "GGGGG"
+            ],
+            "num guesses": 3,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "AUDIO",
+                "CRANE",
+                "BRACK",
+                "TRANK",
+                "FRANK",
+                "HRANK",
+                "LRANK"
+            ],
+            "evaluations": [
+                "YBBBB",
+                "BGGGB",
+                "BGGBG",
+                "BGGGG",
+                "BGGGG",
+                "BGGGG",
+                "BGGGG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "BRINK",
+                "BRICK"
+            ],
+            "evaluations": [
+                "BGGBB",
+                "GGGBG",
+                "GGGGG"
+            ],
+            "num guesses": 3,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "CARAT",
+                "MARRY",
+                "BARON",
+                "ROANO",
+                "DARNO",
+                "GRAIN"
+            ],
+            "evaluations": [
+                "YGBBB",
+                "BBYGB",
+                "BYYBB",
+                "BYYYG",
+                "YYYYB",
+                "BYYYY",
+                "GGYBG"
+            ],
+            "num guesses": 7,
+            "solved": false
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "STOMP",
+                "STUNG",
+                "STUNK",
+                "SHOUT",
+                "SHUNT"
+            ],
+            "evaluations": [
+                "BBBYB",
+                "GYBBB",
+                "GYGGB",
+                "GYGGB",
+                "GGBYG",
+                "GGGGG"
+            ],
+            "num guesses": 6,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "VIDEO",
+                "BITCH",
+                "MUTIL",
+                "FLINT"
+            ],
+            "evaluations": [
+                "BBGBB",
+                "BYBBB",
+                "BYYBB",
+                "BBYYY",
+                "GGGGG"
+            ],
+            "num guesses": 5,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "CARAT",
+                "BARON",
+                "BROAD"
+            ],
+            "evaluations": [
+                "YGBBB",
+                "BBYGB",
+                "GYYYB",
+                "GGGGG"
+            ],
+            "num guesses": 4,
+            "solved": true
+        },
+        {
+            "guesses": [
+                "ARISE",
+                "CLONE",
+                "TABLE",
+                "LANKY",
+                "FLANE",
+                "LANAI",
+                "PENAL"
+            ],
+            "evaluations": [
+                "YBBBY",
+                "BGBYY",
+                "BYBYY",
+                "YYYBB",
+                "BGYYY",
+                "YBYGB",
+                "BYYGY"
+            ],
+            "num guesses": 7,
+            "solved": false
+        }
+    ]
+}
