@@ -1,6 +1,6 @@
 {
-    "win rate": 0.12,
-    "guess results": [
+    "win_rate": 0.12,
+    "guess_results": [
         {
             "guesses": [
                 "STARE",
@@ -20,7 +20,7 @@
                 "BYYBB",
                 "BYYBY"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -42,7 +42,7 @@
                 "BYBYY",
                 "BYBYY"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -58,7 +58,7 @@
                 "BYGBB",
                 "GGGGG"
             ],
-            "num guesses": 4,
+            "num_guesses": 4,
             "solved": true
         },
         {
@@ -80,7 +80,7 @@
                 "GGBYY",
                 "GGGGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": true
         },
         {
@@ -102,7 +102,7 @@
                 "BBYBG",
                 "BBBGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -124,7 +124,7 @@
                 "BBBYY",
                 "BYYYY"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -146,7 +146,7 @@
                 "BYGGG",
                 "BYGGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -168,7 +168,7 @@
                 "BYGGG",
                 "BYGGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -182,7 +182,7 @@
                 "BYYBG",
                 "GGGGG"
             ],
-            "num guesses": 3,
+            "num_guesses": 3,
             "solved": true
         },
         {
@@ -204,7 +204,7 @@
                 "BBYYG",
                 "BGGGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -226,7 +226,7 @@
                 "BGGGG",
                 "BGGGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -248,7 +248,7 @@
                 "BBGGG",
                 "BBGGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -270,7 +270,7 @@
                 "BYGGG",
                 "BYGGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -292,7 +292,7 @@
                 "YBYYB",
                 "YYYYB"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -314,7 +314,7 @@
                 "BYGBY",
                 "BYGBB"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -336,7 +336,7 @@
                 "GGYBB",
                 "GGBYY"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -358,7 +358,7 @@
                 "BBYGG",
                 "BBYGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -378,7 +378,7 @@
                 "GGBGG",
                 "GGGGG"
             ],
-            "num guesses": 6,
+            "num_guesses": 6,
             "solved": true
         },
         {
@@ -400,7 +400,7 @@
                 "YGBBB",
                 "BYYBB"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -422,7 +422,7 @@
                 "BYYYG",
                 "BBYYG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -444,7 +444,7 @@
                 "GGBYG",
                 "GGGGG"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": true
         },
         {
@@ -466,7 +466,7 @@
                 "YYGBY",
                 "YYYYB"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -488,7 +488,7 @@
                 "BYYYB",
                 "BYBYY"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -510,7 +510,7 @@
                 "BYBYY",
                 "BYYGY"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         },
         {
@@ -532,7 +532,7 @@
                 "YYYYB",
                 "BYYYY"
             ],
-            "num guesses": 7,
+            "num_guesses": 7,
             "solved": false
         }
     ]

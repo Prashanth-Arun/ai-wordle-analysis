@@ -73,7 +73,7 @@ def format_output(
     return {
         "guesses": guesses,
         "evaluations": evals,
-        "num guesses": num_guesses,
+        "num_guesses": num_guesses,
         "solved": solved
     }
 

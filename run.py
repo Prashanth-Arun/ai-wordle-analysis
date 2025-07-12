@@ -46,8 +46,8 @@ def main():
     # Count the number of wins and construct the final output
     win_rate: float = round(count_wins(results=results) / len(word_list), 3)
     output: Mapping[str, Any] = {
-        "win rate": win_rate,
-        "guess results": results
+        "win_rate": win_rate,
+        "guess_results": results
     }
 
     # Write trajectories to file
