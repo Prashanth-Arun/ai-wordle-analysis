@@ -6,3 +6,6 @@ __main__.py
 
 # Caches
 __pycache__/
+
+# Large Data Files
+.data/
