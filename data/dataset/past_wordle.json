@@ -1,0 +1,890 @@
+[
+    {
+        "BLANK": {
+            "month": "07",
+            "date": "20",
+            "wordle_id": "1492",
+            "category": "control"
+        }
+    },
+    {
+        "SWORD": {
+            "month": "07",
+            "date": "19",
+            "wordle_id": "1491",
+            "category": "control"
+        }
+    },
+    {
+        "LORIS": {
+            "month": "07",
+            "date": "18",
+            "wordle_id": "1490",
+            "category": "control"
+        }
+    },
+    {
+        "MODAL": {
+            "month": "07",
+            "date": "17",
+            "wordle_id": "1489",
+            "category": "control"
+        }
+    },
+    {
+        "NERVY": {
+            "month": "07",
+            "date": "16",
+            "wordle_id": "1488",
+            "category": "control"
+        }
+    },
+    {
+        "FOIST": {
+            "month": "07",
+            "date": "15",
+            "wordle_id": "1487",
+            "category": "control"
+        }
+    },
+    {
+        "GNOME": {
+            "month": "07",
+            "date": "13",
+            "wordle_id": "1485",
+            "category": "control"
+        }
+    },
+    {
+        "BRAND": {
+            "month": "07",
+            "date": "11",
+            "wordle_id": "1483",
+            "category": "control"
+        }
+    },
+    {
+        "JUMPY": {
+            "month": "07",
+            "date": "10",
+            "wordle_id": "1482",
+            "category": "control"
+        }
+    },
+    {
+        "NOVEL": {
+            "month": "07",
+            "date": "09",
+            "wordle_id": "1481",
+            "category": "control"
+        }
+    },
+    {
+        "BALER": {
+            "month": "07",
+            "date": "05",
+            "wordle_id": "1477",
+            "category": "control"
+        }
+    },
+    {
+        "CURVE": {
+            "month": "07",
+            "date": "04",
+            "wordle_id": "1476",
+            "category": "control"
+        }
+    },
+    {
+        "INCUR": {
+            "month": "07",
+            "date": "02",
+            "wordle_id": "1474",
+            "category": "control"
+        }
+    },
+    {
+        "MOLDY": {
+            "month": "07",
+            "date": "01",
+            "wordle_id": "1473",
+            "category": "control"
+        }
+    },
+    {
+        "BLINK": {
+            "month": "06",
+            "date": "30",
+            "wordle_id": "1472",
+            "category": "control"
+        }
+    },
+    {
+        "STUMP": {
+            "month": "06",
+            "date": "28",
+            "wordle_id": "1470",
+            "category": "control"
+        }
+    },
+    {
+        "PLAIN": {
+            "month": "06",
+            "date": "27",
+            "wordle_id": "1469",
+            "category": "control"
+        }
+    },
+    {
+        "COMFY": {
+            "month": "06",
+            "date": "25",
+            "wordle_id": "1467",
+            "category": "control"
+        }
+    },
+    {
+        "THRUM": {
+            "month": "06",
+            "date": "22",
+            "wordle_id": "1464",
+            "category": "control"
+        }
+    },
+    {
+        "GLADE": {
+            "month": "06",
+            "date": "21",
+            "wordle_id": "1463",
+            "category": "control"
+        }
+    },
+    {
+        "TAUPE": {
+            "month": "06",
+            "date": "20",
+            "wordle_id": "1462",
+            "category": "control"
+        }
+    },
+    {
+        "CURIO": {
+            "month": "06",
+            "date": "19",
+            "wordle_id": "1461",
+            "category": "control"
+        }
+    },
+    {
+        "MUNCH": {
+            "month": "06",
+            "date": "18",
+            "wordle_id": "1460",
+            "category": "control"
+        }
+    },
+    {
+        "PRANK": {
+            "month": "06",
+            "date": "17",
+            "wordle_id": "1459",
+            "category": "control"
+        }
+    },
+    {
+        "QUAIL": {
+            "month": "06",
+            "date": "15",
+            "wordle_id": "1457",
+            "category": "control"
+        }
+    },
+    {
+        "GHOST": {
+            "month": "06",
+            "date": "14",
+            "wordle_id": "1456",
+            "category": "control"
+        }
+    },
+    {
+        "BILGE": {
+            "month": "06",
+            "date": "13",
+            "wordle_id": "1455",
+            "category": "control"
+        }
+    },
+    {
+        "VIXEN": {
+            "month": "06",
+            "date": "12",
+            "wordle_id": "1454",
+            "category": "control"
+        }
+    },
+    {
+        "PLAID": {
+            "month": "06",
+            "date": "11",
+            "wordle_id": "1453",
+            "category": "control"
+        }
+    },
+    {
+        "BOARD": {
+            "month": "06",
+            "date": "09",
+            "wordle_id": "1451",
+            "category": "control"
+        }
+    },
+    {
+        "EDIFY": {
+            "month": "06",
+            "date": "06",
+            "wordle_id": "1448",
+            "category": "control"
+        }
+    },
+    {
+        "DATUM": {
+            "month": "06",
+            "date": "05",
+            "wordle_id": "1447",
+            "category": "control"
+        }
+    },
+    {
+        "ADMIN": {
+            "month": "06",
+            "date": "03",
+            "wordle_id": "1445",
+            "category": "control"
+        }
+    },
+    {
+        "ROUGH": {
+            "month": "06",
+            "date": "01",
+            "wordle_id": "1443",
+            "category": "control"
+        }
+    },
+    {
+        "HABIT": {
+            "month": "05",
+            "date": "31",
+            "wordle_id": "1442",
+            "category": "control"
+        }
+    },
+    {
+        "QUASH": {
+            "month": "05",
+            "date": "29",
+            "wordle_id": "1440",
+            "category": "control"
+        }
+    },
+    {
+        "POLAR": {
+            "month": "05",
+            "date": "28",
+            "wordle_id": "1439",
+            "category": "control"
+        }
+    },
+    {
+        "SPORT": {
+            "month": "05",
+            "date": "27",
+            "wordle_id": "1438",
+            "category": "control"
+        }
+    },
+    {
+        "DRONE": {
+            "month": "05",
+            "date": "26",
+            "wordle_id": "1437",
+            "category": "control"
+        }
+    },
+    {
+        "GRIFT": {
+            "month": "05",
+            "date": "25",
+            "wordle_id": "1436",
+            "category": "control"
+        }
+    },
+    {
+        "SHUCK": {
+            "month": "05",
+            "date": "23",
+            "wordle_id": "1434",
+            "category": "control"
+        }
+    },
+    {
+        "BORNE": {
+            "month": "05",
+            "date": "20",
+            "wordle_id": "1431",
+            "category": "control"
+        }
+    },
+    {
+        "PITCH": {
+            "month": "05",
+            "date": "19",
+            "wordle_id": "1430",
+            "category": "control"
+        }
+    },
+    {
+        "GROWN": {
+            "month": "05",
+            "date": "17",
+            "wordle_id": "1428",
+            "category": "control"
+        }
+    },
+    {
+        "BICEP": {
+            "month": "05",
+            "date": "12",
+            "wordle_id": "1423",
+            "category": "control"
+        }
+    },
+    {
+        "DOWEL": {
+            "month": "05",
+            "date": "11",
+            "wordle_id": "1422",
+            "category": "control"
+        }
+    },
+    {
+        "YEAST": {
+            "month": "05",
+            "date": "10",
+            "wordle_id": "1421",
+            "category": "control"
+        }
+    },
+    {
+        "TRIPE": {
+            "month": "05",
+            "date": "09",
+            "wordle_id": "1420",
+            "category": "control"
+        }
+    },
+    {
+        "BALMY": {
+            "month": "05",
+            "date": "08",
+            "wordle_id": "1419",
+            "category": "control"
+        }
+    },
+    {
+        "MACHO": {
+            "month": "05",
+            "date": "07",
+            "wordle_id": "1418",
+            "category": "control"
+        }
+    },
+    {
+        "SUITE": {
+            "month": "05",
+            "date": "06",
+            "wordle_id": "1417",
+            "category": "control"
+        }
+    },
+    {
+        "PATSY": {
+            "month": "05",
+            "date": "03",
+            "wordle_id": "1414",
+            "category": "control"
+        }
+    },
+    {
+        "WHOSE": {
+            "month": "05",
+            "date": "02",
+            "wordle_id": "1413",
+            "category": "control"
+        }
+    },
+    {
+        "ADEPT": {
+            "month": "05",
+            "date": "01",
+            "wordle_id": "1412",
+            "category": "control"
+        }
+    },
+    {
+        "IDLER": {
+            "month": "04",
+            "date": "30",
+            "wordle_id": "1411",
+            "category": "control"
+        }
+    },
+    {
+        "CLASH": {
+            "month": "04",
+            "date": "26",
+            "wordle_id": "1407",
+            "category": "control"
+        }
+    },
+    {
+        "ARTSY": {
+            "month": "04",
+            "date": "22",
+            "wordle_id": "1403",
+            "category": "control"
+        }
+    },
+    {
+        "SPATE": {
+            "month": "04",
+            "date": "21",
+            "wordle_id": "1402",
+            "category": "control"
+        }
+    },
+    {
+        "PATCH": {
+            "month": "04",
+            "date": "20",
+            "wordle_id": "1401",
+            "category": "control"
+        }
+    },
+    {
+        "INBOX": {
+            "month": "04",
+            "date": "19",
+            "wordle_id": "1400",
+            "category": "control"
+        }
+    },
+    {
+        "DIRGE": {
+            "month": "04",
+            "date": "18",
+            "wordle_id": "1399",
+            "category": "control"
+        }
+    },
+    {
+        "MORAL": {
+            "month": "04",
+            "date": "16",
+            "wordle_id": "1397",
+            "category": "control"
+        }
+    },
+    {
+        "ASHEN": {
+            "month": "04",
+            "date": "15",
+            "wordle_id": "1396",
+            "category": "control"
+        }
+    },
+    {
+        "CREST": {
+            "month": "04",
+            "date": "14",
+            "wordle_id": "1395",
+            "category": "control"
+        }
+    },
+    {
+        "LAUGH": {
+            "month": "04",
+            "date": "13",
+            "wordle_id": "1394",
+            "category": "control"
+        }
+    },
+    {
+        "NURSE": {
+            "month": "04",
+            "date": "12",
+            "wordle_id": "1393",
+            "category": "control"
+        }
+    },
+    {
+        "TURBO": {
+            "month": "04",
+            "date": "10",
+            "wordle_id": "1391",
+            "category": "control"
+        }
+    },
+    {
+        "WHEAT": {
+            "month": "04",
+            "date": "09",
+            "wordle_id": "1390",
+            "category": "control"
+        }
+    },
+    {
+        "SPARE": {
+            "month": "04",
+            "date": "08",
+            "wordle_id": "1389",
+            "category": "control"
+        }
+    },
+    {
+        "HAZEL": {
+            "month": "04",
+            "date": "07",
+            "wordle_id": "1388",
+            "category": "control"
+        }
+    },
+    {
+        "FOAMY": {
+            "month": "04",
+            "date": "05",
+            "wordle_id": "1386",
+            "category": "control"
+        }
+    },
+    {
+        "SHEAR": {
+            "month": "04",
+            "date": "03",
+            "wordle_id": "1384",
+            "category": "control"
+        }
+    },
+    {
+        "CURSE": {
+            "month": "04",
+            "date": "02",
+            "wordle_id": "1383",
+            "category": "control"
+        }
+    },
+    {
+        "UNDID": {
+            "month": "07",
+            "date": "14",
+            "wordle_id": "1486",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "EXILE": {
+            "month": "07",
+            "date": "12",
+            "wordle_id": "1484",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "DREAD": {
+            "month": "07",
+            "date": "08",
+            "wordle_id": "1480",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "STILT": {
+            "month": "07",
+            "date": "07",
+            "wordle_id": "1479",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "ATRIA": {
+            "month": "07",
+            "date": "06",
+            "wordle_id": "1478",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "POPPY": {
+            "month": "07",
+            "date": "03",
+            "wordle_id": "1475",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "WITTY": {
+            "month": "06",
+            "date": "29",
+            "wordle_id": "1471",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "OFFER": {
+            "month": "06",
+            "date": "26",
+            "wordle_id": "1468",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "ELITE": {
+            "month": "06",
+            "date": "24",
+            "wordle_id": "1466",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "ODDLY": {
+            "month": "06",
+            "date": "23",
+            "wordle_id": "1465",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "PETTY": {
+            "month": "06",
+            "date": "16",
+            "wordle_id": "1458",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "TAFFY": {
+            "month": "06",
+            "date": "10",
+            "wordle_id": "1452",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "LEASE": {
+            "month": "06",
+            "date": "08",
+            "wordle_id": "1450",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "REUSE": {
+            "month": "06",
+            "date": "07",
+            "wordle_id": "1449",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "CEASE": {
+            "month": "06",
+            "date": "04",
+            "wordle_id": "1446",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "PREEN": {
+            "month": "06",
+            "date": "02",
+            "wordle_id": "1444",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "IDIOM": {
+            "month": "05",
+            "date": "30",
+            "wordle_id": "1441",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "SUEDE": {
+            "month": "05",
+            "date": "24",
+            "wordle_id": "1435",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "FOLIO": {
+            "month": "05",
+            "date": "22",
+            "wordle_id": "1433",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "ALARM": {
+            "month": "05",
+            "date": "21",
+            "wordle_id": "1432",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "LIVID": {
+            "month": "05",
+            "date": "18",
+            "wordle_id": "1429",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "FIFTH": {
+            "month": "05",
+            "date": "16",
+            "wordle_id": "1427",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "EAGER": {
+            "month": "05",
+            "date": "15",
+            "wordle_id": "1426",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "BONGO": {
+            "month": "05",
+            "date": "14",
+            "wordle_id": "1425",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "AWARE": {
+            "month": "05",
+            "date": "13",
+            "wordle_id": "1424",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "SHUSH": {
+            "month": "05",
+            "date": "05",
+            "wordle_id": "1416",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "TROUT": {
+            "month": "05",
+            "date": "04",
+            "wordle_id": "1415",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "BLISS": {
+            "month": "04",
+            "date": "29",
+            "wordle_id": "1410",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "DUMMY": {
+            "month": "04",
+            "date": "28",
+            "wordle_id": "1409",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "WEEDY": {
+            "month": "04",
+            "date": "27",
+            "wordle_id": "1408",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "KNOWN": {
+            "month": "04",
+            "date": "25",
+            "wordle_id": "1406",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "GENIE": {
+            "month": "04",
+            "date": "24",
+            "wordle_id": "1405",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "OZONE": {
+            "month": "04",
+            "date": "23",
+            "wordle_id": "1404",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "STOOD": {
+            "month": "04",
+            "date": "17",
+            "wordle_id": "1398",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "ARROW": {
+            "month": "04",
+            "date": "11",
+            "wordle_id": "1392",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "VILLA": {
+            "month": "04",
+            "date": "06",
+            "wordle_id": "1387",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "KRILL": {
+            "month": "04",
+            "date": "04",
+            "wordle_id": "1385",
+            "category": "hypothesis"
+        }
+    },
+    {
+        "JEWEL": {
+            "month": "04",
+            "date": "01",
+            "wordle_id": "1382",
+            "category": "hypothesis"
+        }
+    }
+]
