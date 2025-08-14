@@ -1,0 +1,124 @@
+---
+title: "wordle_analysis"
+output: pdf_document
+date: "2025-08-14"
+---
+
+```{r setup, include=FALSE}
+library(jsonlite)
+```
+
+## Preamble
+This is a template for extracting and graphing important statistics and doing comparison/multiple test.
+
+
+### Claude
+```{r}
+claude_control <- fromJSON("predictions/claude_control.json")
+claude_control_guesses = claude_control$guess_results$num_guesses 
+print(mean(claude_control_guesses))
+print(var(claude_control_guesses))
+
+
+claude_experiment <- fromJSON("predictions/claude_hypothesis.json")
+claude_experiment_guesses = claude_experiment$guess_results$num_guesses 
+print(mean(claude_experiment_guesses))
+print(var(claude_experiment_guesses))
+```
+
+H0: experiment set is no higher than control set
+HA: experiment set is higher
+
+Catch: Cannot assume normal distribution of data, see graph for reason
+
+```{r}
+hist(claude_control_guesses, breaks = 2.5:7.5)
+```
+```{r}
+hist(claude_experiment_guesses, breaks = 2.5:7.5)
+```
+
+Hypothesis Testing:
+```{r}
+wilcox.test(claude_experiment_guesses, claude_control_guesses, alternative = "greater", exact = TRUE)
+
+# Still need to do Permutation Test here.
+
+```
+
+### GPT
+```{r}
+gpt_control <- fromJSON("predictions/gpt_control.json")
+gpt_control_guesses = gpt_control$guess_results$num_guesses 
+print(mean(gpt_control_guesses))
+print(var(gpt_control_guesses))
+
+
+gpt_experiment <- fromJSON("predictions/gpt_hypothesis.json")
+gpt_experiment_guesses = gpt_experiment$guess_results$num_guesses 
+print(mean(gpt_experiment_guesses))
+print(var(gpt_experiment_guesses))
+```
+
+H0: experiment set is no higher than control set
+HA: experiment set is higher
+
+Catch: Cannot assume normal distribution of data, see graph for reason
+
+```{r}
+hist(gpt_control_guesses, breaks = 1.5:7.5)
+```
+```{r}
+hist(gpt_experiment_guesses, breaks = 3.5:7.5)
+```
+
+Hypothesis Testing:
+```{r}
+wilcox.test(gpt_experiment_guesses, gpt_control_guesses, alternative = "greater", exact = TRUE)
+
+# Still need to do Permutation Test here.
+```
+
+
+### Mistral
+```{r}
+mistral_control <- fromJSON("predictions/mistral_control.json")
+mistral_control_guesses = mistral_control$guess_results$num_guesses 
+print(mean(mistral_control_guesses))
+print(var(mistral_control_guesses))
+
+
+mistral_experiment <- fromJSON("predictions/mistral_hypothesis.json")
+mistral_experiment_guesses = mistral_experiment$guess_results$num_guesses 
+print(mean(mistral_experiment_guesses))
+print(var(mistral_experiment_guesses))
+```
+
+H0: experiment set is no higher than control set
+HA: experiment set is higher
+
+Catch: Cannot assume normal distribution of data, see graph for reason
+
+```{r}
+hist(mistral_control_guesses, breaks = 2.5:7.5)
+```
+```{r}
+hist(mistral_experiment_guesses, breaks = 3.5:7.5)
+```
+
+Hypothesis Testing:
+```{r}
+wilcox.test(mistral_experiment_guesses, mistral_control_guesses, alternative = "greater", exact = TRUE)
+
+# Still need to do Permutation Test here.
+```
+
+### Discuss
+#### Why do we use not use a t-test?
+Because data is not normal. Does it look like normal to you?
+
+#### And what tests do we use?
+Wilcoxon and Permutation. Explained here for why it is appropriate.
+
+
+
